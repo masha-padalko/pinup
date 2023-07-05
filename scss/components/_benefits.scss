@@ -1,3 +1,5 @@
+@use "../utils/mixins" as *;
+
 .benefits {
     display: flex;
     color: var(--white-color);
@@ -9,7 +11,11 @@
         display: flex;
 
         &:not(:last-child) {
-            margin-right: 24px;
+            margin-right: 20px;
+
+            @include mobile {
+                margin-right: 24px;
+            }
         }
     }
 
