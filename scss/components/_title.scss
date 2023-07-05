@@ -1,0 +1,36 @@
+.title {
+
+    &__bonus {
+        padding: 8px 23px;
+        color: var(--secondary-color);
+        text-align: center;
+        font-size: 27px;
+        font-family: 'Pinup Black';
+        line-height: 33px;
+        text-transform: uppercase;
+        background-color: var(--white-color);
+        transform: skewY(-7deg);
+        margin-top: auto;
+    }
+
+    &__bonus-amount {
+        font-size: 38px;
+    }
+
+    &__freebet {
+        color: var(--white-color);
+        text-align: center;
+        font-size: 23px;
+        font-family: 'Pinup Black';
+        line-height: 29px;
+        text-transform: uppercase;
+        background-color: var(--tetriary-color);
+        padding: 5px 17px;
+        transform: skewY(-7deg);
+        margin-bottom: 40px;
+    }
+
+    &__freebet-amount {
+        font-size: 32px;
+    }
+}

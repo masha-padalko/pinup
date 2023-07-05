@@ -1,0 +1,20 @@
+.benefits {
+    display: flex;
+    color: var(--white-color);
+    padding: 26px 0;
+
+    &__item {
+        font-size: 12px;
+        line-height: 12px;
+        display: flex;
+
+        &:not(:last-child) {
+            margin-right: 24px;
+        }
+    }
+
+    &__icon {
+        font-size: 24px;
+        margin-right: 6px;
+    }
+}

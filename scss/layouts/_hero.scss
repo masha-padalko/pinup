@@ -1,0 +1,12 @@
+@use "../utils/mixins" as *;
+
+.hero {
+    min-height: 100vh;
+    padding: 25px 24px 60px;
+    background: url("../img/player.png") no-repeat, url("../img/hero_bg_mob.jpeg") no-repeat;
+    background-size: 100%, cover;
+    background-position: top 123px center, top center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
