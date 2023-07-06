@@ -3,7 +3,7 @@
 .title {
 
     &__bonus {
-        padding: 8px 23px;
+        padding: 8px 20px;
         color: var(--secondary-color);
         text-align: center;
         font-size: 23px;
@@ -37,7 +37,7 @@
         font-size: 31px;
 
         @include mobile {
-            font-size: 37px;
+            font-size: 38px;
         }
 
         @include desktop {
