@@ -13,6 +13,11 @@ a {
     transition: all ease 0.3s;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     font-family: 'Pinup Medium';
     
