@@ -19,19 +19,25 @@
         }
 
         @include desktop {
-            font-size: 61px;
-            padding: 37px 46px;
+            font-size: 55px;
+            padding: 33px 40px;
             margin-top: 0;
             z-index: 1;
-    margin-bottom: 5px;
+            margin-bottom: 5px;
         }
+
+        @include desktopXL {
+            font-size: 61px;
+            padding: 37px 46px;
+        }
+
     }
 
     &__bonus-amount {
-        font-size: 27px;
+        font-size: 31px;
 
         @include mobile {
-            font-size: 38px;
+            font-size: 37px;
         }
 
         @include desktop {
