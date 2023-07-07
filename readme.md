@@ -15,12 +15,12 @@
 
 <h2>Tested on mobile devices:</h2>
 <p>Iphone 12 PRO Max Safari browser</p>
-<img src="img/screenshots/iphone12_.jpg">
-<img src="img/screenshots/iphone12.jpg">
+<img src="img/screenshots/iphone12_.jpg" width="200">
+<img src="img/screenshots/iphone12.jpg" width="200">
 <p>Iphone 14 PRO Safari browser</p>
-<img src="img/screenshots/iphone14.jpg">
+<img src="img/screenshots/iphone14.jpg" width="200">
 <p>Xiaomi mi9 X browser</p>
-<img src="img/screenshots/android.jpg">
+<img src="img/screenshots/android.jpg" width="200">
 
 <h2>Troubleshooting:</h2>
 <p>Responsive player</p>
