@@ -3,7 +3,7 @@
 .title {
 
     &__bonus {
-        padding: 8px 10px;
+        padding: 8px 20px;
         color: var(--secondary-color);
         text-align: center;
         font-size: 23px;
@@ -15,12 +15,7 @@
         margin-top: auto;
 
         @include mobile {
-            font-size: 15px;
-            padding: 8px 0;
-        }
-
-        @include tablet {
-            padding: 8px 20px;
+            font-size: 27px;
         }
 
         @include desktop {
