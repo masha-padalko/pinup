@@ -9,9 +9,12 @@
 <p>https://nodejs.org/download/release/v14.18.0/</p>
 
 <h2>Comments:</h2>
-<p>Mobile first approach</p>
-<p>All svg were compressed by <a href="https://jakearchibald.github.io/svgomg/" target="_blank">SVGOMG</a> service</p>
-<p>PNG images were compressed by <a href="https://compress-or-die.com/" target="_blank">Compress or die</a> service</p>
+<ul>
+<li>Mobile first approach</li>
+<li>All svg were compressed by <a href="https://jakearchibald.github.io/svgomg/" target="_blank">SVGOMG</a> service</li>
+<li>PNG images were compressed by <a href="https://compress-or-die.com/" target="_blank">Compress or die</a> service</li>
+</ul>
+
 
 <h2>Tested on mobile devices:</h2>
 <p>Iphone 12 PRO Max Safari browser</p>
@@ -23,18 +26,22 @@
 <img src="img/screenshots/android.jpg" width="200">
 
 <h2>Troubleshooting:</h2>
-<p>Responsive player</p>
-<p>Bottom smoke animation (create bigger image: add mirror of current one, cause image from mockup does not fit animation from video example)</p>
-
+<ul>
+<li>Responsive player</li>
+<li>Bottom smoke animation (create bigger image: add mirror of current one, cause image from mockup does not fit animation from video example)</li>
+</ul>
 <h2>Lack of knowledge:</h2>
 <p>Responsive units of measurement</p>
 
 <h2>What could be improve:</h2>
-<p>Add gulp task for prefixes</p>
-<p>Add markup for more breakpoints or use responsive units of measurement</p>
-<p>Quality of mobile player image</p>
-<p>Add 2x images for Retina display and add html css params</p>
-<p>Add active state for buttons</p>
-<p>Fix svg icon font for second icon (it cutted on the right bottom corner after font generating)</p>
-<p>Find better image for smoke and create more smooth animation</p>
+<ul>
+<li>Add gulp task for prefixes</li>
+<li>Add markup for more breakpoints or use responsive units of measurement</li>
+<li>Quality of mobile player image</li>
+<li>Add 2x images for Retina display and add html css params</li>
+<li>Add active state for buttons</li>
+<li>Fix svg icon font for second icon (it cutted on the right bottom corner after font generating)</li>
+<li>Find better image for smoke and create more smooth animation</li>
+</ul>
+
 
