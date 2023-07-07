@@ -28,7 +28,7 @@
 <h2>Troubleshooting:</h2>
 <ul>
 <li>Responsive player</li>
-<li>Bottom smoke animation (create bigger image: add mirror of current one, cause image from mockup does not fit animation from video example)</li>
+<li>Bottom smoke animation (created bigger image: add mirror of current one, cause image from mockup does not fit animation from video example)</li>
 </ul>
 <h2>Lack of knowledge:</h2>
 <p>Responsive units of measurement</p>
