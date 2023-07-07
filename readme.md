@@ -14,7 +14,8 @@
 <li>All svg were compressed by <a href="https://jakearchibald.github.io/svgomg/" target="_blank">SVGOMG</a> service</li>
 <li>PNG images were compressed by <a href="https://compress-or-die.com/" target="_blank">Compress or die</a> service</li>
 </ul>
-
+<h2>Tested in desktop Browsers:</h2>
+<p>Chrome MAC OS, Safari MAC OS</p>
 
 <h2>Tested on mobile devices:</h2>
 <p>Iphone 12 PRO Max Safari browser</p>
