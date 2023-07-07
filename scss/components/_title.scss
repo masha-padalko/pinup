@@ -15,8 +15,8 @@
         margin-top: auto;
 
         @include mobile {
-            font-size: 27px;
-            padding: 8px 10px;
+            font-size: 15px;
+            padding: 8px 0;
         }
 
         @include tablet {
