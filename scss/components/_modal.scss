@@ -62,7 +62,9 @@
         color: var(--white-color);
 
         &:hover {
-            color: var(--tetriary-color);
+            @include desktop {
+                color: var(--tetriary-color);
+            }
         }
     }
 

@@ -10,12 +10,11 @@
         background-image: url("../img/smoke.png"); /* Replace 'smoke.png' with your smoke image */
         background-repeat: repeat-x;
         background-size: contain;
-        // animation: backgroundScroll 12s linear infinite;
+        animation: smokeAnimation 12s linear infinite;
     }
-
 }
 
-@keyframes backgroundScroll {
+@keyframes smokeAnimation {
     0% {
       background-position: 0 0;
     }
