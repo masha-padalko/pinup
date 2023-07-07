@@ -9,8 +9,16 @@ ul {
 }
 
 a {
-    text-decoration: none;
     transition: all ease 0.3s;
+    color: var(--secondary-color);
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+img {
+    display: block;
 }
 
 html,

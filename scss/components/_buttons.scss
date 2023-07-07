@@ -12,20 +12,30 @@
     font-family: 'Pinup Black';
     padding: 13px 38px;
     cursor: pointer;
-    box-shadow: 0 4px 15px 0 rgba(255, 36, 0, 0.55);
-    letter-spacing: 0.05em;
     transition: transform 0.3s ease;
     z-index: 1;
-
-    @include tablet {
-        width: auto;
-    }
 
     @include desktop {
         padding: 21px 61px;
         font-size: 27px;
         letter-spacing: 0;
         border-radius: 10px;
+    }
+
+    &__primary {
+        box-shadow: 0 4px 15px 0 rgba(255, 36, 0, 0.55);
+        letter-spacing: 0.05em;
+        
+        @include tablet {
+            width: auto;
+        }
+    }
+
+    &__secondary {
+        border-radius: 2px;
+        font-size: 16px;
+        padding: 12px 0;
+        margin-bottom: 16px;
     }
 
     &:hover {

@@ -35,12 +35,41 @@
 				</ul>
 				<h1 class="title__bonus">БОНУС до <span class="title__bonus-amount">30 000 ₴</span></h1>
 				<h2 class="title__freebet">ФРиБЕТ до <span class="title__freebet-amount">3 000 ₴</span></h2>
-				<button type="button" class="btn btn__primary">
+				<button id="openModalButton" type="button" class="btn btn__primary">
 					отримати бонус
 				</button>
 			</div>
+			<div class="smoke"></div>
+		</div>
+		<div id="modalOverlay" class="modal__overlay"></div>
+		<div id="modalWindow" class="modal">
+			<div class="modal__title">Реєстрація
+				<button id="closeModalButton" class="modal__close">
+					<span class="icon-close"></span>
+				</button>
+			</div>
+			<form action="" class="modal__form">
+				<span class="modal__subtitle">Введіть свій номер телефону</span>
+				<div class="modal__input">
+					<span class="modal__input-flags">
+						<img src="img/flag.svg" alt="">
+					</span>
+					<label for="phone" class="modal__input-label">Номер телефону</label>
+					<input id="phone" type="phone" placeholder="+3 (000) 234-56-78">
+				</div>	
+				<button type="button" class="btn btn__secondary">
+					забрати бонус
+				</button>
+				<div class="modal__checkboxes">
+					<input type="checkbox" id="rules"  class="modal__checkboxes-input" checked>
+					<label for="rules" class="modal__checkboxes-label"><span>Я погоджуюсь з <a href="#"> правилами та умовами</a></span></label>
+					<input type="checkbox" id="subscribe" class="modal__checkboxes-input">
+					<label for="subscribe" class="modal__checkboxes-label">Отримати розсилку про акції по e-mail та  sms</label>
+				</div>
+				
+			</form>
 		</div>
 		<script src="js/jquery-3.7.0.min.js"></script>
-		<script src="js/scripts.js"></script>
+		<script src="js/scripts.js" defer></script>
 	</body>
 </html>

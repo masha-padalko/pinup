@@ -1,0 +1,29 @@
+@use "../utils/mixins" as *;
+
+.smoke {
+    @include desktop {
+        width: 100%;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-image: url("../img/smoke.png"); /* Replace 'smoke.png' with your smoke image */
+        background-repeat: repeat-x;
+        background-size: contain;
+        // animation: backgroundScroll 12s linear infinite;
+    }
+
+}
+
+@keyframes backgroundScroll {
+    0% {
+      background-position: 0 0;
+    }
+    30% {
+      background-position: -100% 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+      }
+  }
