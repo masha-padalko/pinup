@@ -36,5 +36,5 @@
 <p>Add 2x images for Retina display and add html css params</p>
 <p>Add active state for buttons</p>
 <p>Fix svg icon font for second icon (it cutted on the right bottom corner after font generating)</p>
-<p>Find better inage for smoke and create more smooth animation</p>
+<p>Find better image for smoke and create more smooth animation</p>
 
