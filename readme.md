@@ -43,6 +43,7 @@
 <li>Add active state for buttons</li>
 <li>Fix svg icon font for second icon (it cutted on the right bottom corner after font generating)</li>
 <li>Find better image for smoke and create more smooth animation</li>
+<li>Add static smoke on mobile</li>
 </ul>
 
 
