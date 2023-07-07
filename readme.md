@@ -28,4 +28,5 @@
 <h2>What could be improve:</h2>
 <p>Add GULP task for prefixes</p>
 <p>Add more breakpoints</p>
+<p>Quality of mobile player</p>
 
